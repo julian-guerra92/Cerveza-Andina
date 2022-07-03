@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    background: rgb(17, 12, 1);
+    color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index:100;
+    width: 100%;
+    height: auto;
+    padding: 8px;
+}
+
+header h1{
+    float: left;
+    font-size: 25px;
+}
+
+.menu{
+    float: right;
+    margin-top: 8px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    background: rgb(251, 251, 251, 50%);
+}
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+
+#banner{
+    height: 555px;
+    background: url(../IMG/cerveza2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0px;
+}
+
+#banner h2{
+    font-size: 20px;
+}
+
+#banner .contenedor{
+    position: absolute;
+    top: 450px;
+    color: white;
+    background: rgb(120, 118, 16, 97%);
+    padding: 0px;
+}
+
+#banner a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    border: 3px solid white;
+    width: 130px;
+    padding: 5px;
+}
+
+#banner a:hover{
+    background: rgb(251, 251, 251, 50%);
+}
+
+section{
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+#bienvenidos h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+#bienvenidos p{
+    text-align: center;
+    font-size: 20px;
+}
+
+#blog img{
+    width: 100%;
+    height: 100%;
+    max-width: 380px;
+    max-height: 380px;
+}
+
+#blog .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article{
+    margin: 30px;
+    border: 3px solid black;
+}
+
+#blog h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+#blog h4{
+    text-align: center;
+    font-size: 20px;
+    width: 380px;
+    color: black;
+}
+
+#info{
+    background: black;
+    padding: 20px;
+}
+
+#info h3{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+#info h4{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    width: 190px;
+}
+
+.infocer img{
+    width: 190px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.infocer{
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.copy{
+    font-size: 22px;
+}
+
+.redes a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
